@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="396.0" prefWidth="476.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="306.0" prefWidth="700.0" style="-fx-background-color: #1FBED6;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="500.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Pictures/Saved%20Pictures/background.jpg" />
+               </image>
+            </ImageView>
+            <TextField layoutX="217.0" layoutY="170.0" promptText="User Name" style="-fx-background-color: terasparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" />
+            <PasswordField layoutX="217.0" layoutY="250.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" />
+            <Button layoutX="279.0" layoutY="309.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="86.0" style="-fx-background-color: #0598ff;" text="Log in" textFill="#eeeded" />
+            <Button layoutX="657.0" layoutY="8.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="exit" textFill="#0598ff" />
+         </children></AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="457.0" prefWidth="299.0" BorderPane.alignment="CENTER">
+         <children>
+            <Hyperlink layoutX="38.0" layoutY="348.0" text="Forgot password" />
+            <Text fill="#d00000" layoutX="123.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Log in">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
