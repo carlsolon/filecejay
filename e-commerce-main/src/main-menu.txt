@@ -1,0 +1,5 @@
+    Home,./index.php
+    Products,./pages/products.php
+    Create Product,./pages/create_product.php
+    Update Product,./pages/update_product.php
+    About Us,./pages/about_us.php
