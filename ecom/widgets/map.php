@@ -1,0 +1,1 @@
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7912.296363052522!2d125.802187!3d7.4488532!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f953002156cde7%3A0x3f58592665da4662!2s3SX%20KICKZ!5e0!3m2!1sen!2sph!4v1711943105586!5m2!1sen!2sph" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
